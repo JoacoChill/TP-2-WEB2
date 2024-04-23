@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num1 = parseFloat(prompt("ingrese el primer numero"))
+        var num2 = parseFloat(prompt("ingrese el segundo numero"))
+        var num3 = parseFloat(prompt("ingrese el tercer numero"))
+
+        if (num1 > num2 && num1 > num3) {
+            alert("el mas grande es: " + num1)
+
+        } else if (num2 > num1 && num2 > num3) {
+            alert("el mas grande es: " + num2)
+
+        } else if(num3>num1 && num3>num2){
+            alert("el mas grande es: "+num3)
+
+        } else if(num1==num2 && num1>num3){
+            alert("el mas grande es: "+num1)
+        
+        }else if(num1==num3 && num1>num2){
+            alert("el mas grande es: "+num1)
+
+        }else if(num2==num3 && num2>num1){
+            alert("el mas grande es: "+num2)
+
+        }else if(num1==num2 && num1==num3){
+            alert("los tres numeros son iguales")
+        }
+
+
+
+    </script>
+</body>
+
+</html>
